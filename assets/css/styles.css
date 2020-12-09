@@ -36,7 +36,7 @@ body{
 	font-size: 2em;
 	text-shadow: 3px 5px var(--first-color-alt);
 	font-weight: 600;
-	letter-spacing: 25px;
+	letter-spacing: 18px;
 }
 
 .section-subtitle, .section-title{
@@ -581,9 +581,11 @@ footer .copyrights{
 	}
 	.hero .hero-content h2{
 		font-size: 3.5em;
+		text-shadow: 3px 4px var(--first-color-alt);
 	}
 	.hero .hero-content p{
 		font-size: 2em;
+		text-shadow: 3px 1px var(--first-color-alt);
 	}
 	.hero .hero-content a{
 		font-size: 1.3em;
@@ -610,10 +612,14 @@ footer .copyrights{
 	
 	.section-title{
 		font-size: 3rem;
+		letter-spacing: 13px;
+		text-shadow: 4px 4px var(--first-color-alt);
 	}
 
 	.section-subtitle{
 		font-size: 2rem;
+		letter-spacing: 12px;
+		text-shadow: 3px 3px var(--first-color-alt);
 	}
     
 	.hero .hero-content{
@@ -653,26 +659,6 @@ footer .copyrights{
         font-size: 25px;
 	}
 	
-	/* footer{
-		padding: 40px;
-	}
-
-	footer .f-container{
-		flex-direction: column;
-	}
-
-	footer .f-container .sec{
-		margin-right: 0;
-		margin-bottom: 40px;
-	}
-
-	footer .f-container .sec.aboutus, .quickLinks, .contact{
-		width: 100%;
-	}
-
-	.copyrightText{
-		padding: 8px 35px;
-	} */
 
 }
 
@@ -703,7 +689,7 @@ footer .copyrights{
 	}
 	.hero .hero-content h2{
 		font-size: 2.7em;
-		text-shadow: 3px 5px var(--first-color-alt);
+		text-shadow: 3px 3px var(--first-color-alt);
 	}
 	.hero .hero-content p{
 		font-size: 1.2em;
@@ -714,14 +700,20 @@ footer .copyrights{
     }
 	
 	.section-title{
-		font-size: 2rem;
+		font-size: 3rem;
 		letter-spacing: 15px;
 		text-shadow: 3px 3px var(--first-color-alt);
+		margin-top: 15px;
+		letter-spacing: 7px;
 	}
 
-	.section-subtitle{
-		font-size: 1.2rem;
-		letter-spacing: 15px;
+	.container{
+		margin-top: 15px;
+	}
+
+	.section-subtitle {
+		font-size: 1.5em;
+		letter-spacing: 9;
 		text-shadow: 3px 2px var(--first-color-alt);
 	}
 
